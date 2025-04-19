@@ -1,0 +1,37 @@
+/* HOME PAGE */
+.pressLogos {
+    width: 100%;
+}
+@media(max-width: 600px) {
+    .largestBroker {
+        margin-bottom: 30px;
+        width: 95%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .my-heading {
+      font-size: 45px !important;
+    }
+    .my-p {
+        font-size: 17px;
+    }
+    .my-b-hero {
+        width: 30%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .my-heading {
+      font-size: 45px !important;
+    }
+    .my-p {
+        font-size: 18px;
+    }
+    .my-b-hero {
+        margin: auto !important;
+        width: 40% !important;
+    }
+  }
