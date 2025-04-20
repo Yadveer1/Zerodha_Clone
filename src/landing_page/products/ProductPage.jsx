@@ -9,12 +9,10 @@ import Universe from './Universe';
 function ProductPage(){
     return ( 
         <>
-            <Footer/>
             <Hero/>
             <RightSection/>
             <LeftSection/>
             <Universe/>
-            <Navbar/>
         </>
      );
 }

@@ -1,13 +1,22 @@
 import React from 'react';
-import Hero from './Hero';
-import Team from './Team';
 
 function AboutPage() {
     return ( 
-        <>
-            <Hero/>
-            <Team/>
-        </>
+        <div className="container" style={{margin}}>
+            <div className="row">
+                <div className="col-4">
+
+                </div>
+                <div className="col-8">
+                    <p>
+                        Hey! I'm Yadveer Singh Pawar, a Computer Engineering student with a strong passion for Web Development and Artificial Intelligence. I love turning ideas into real-world projects — like the Spotify clone and Wanderlust (my Airbnb-inspired web app). <br /> <br />
+                        Right now, I'm sharpening my skills in Data Structures & Algorithms and diving deeper into full-stack web development. I'm always open to learning, building, and collaborating on meaningful tech projects. <br /> <br />
+                        If you're looking for someone to join your team, internship, or just vibe over a cool side project — let’s connect! <br /> <br />
+                        When I'm not coding, you’ll probably find me on a football field chasing the next goal ⚽ <br /> <br />
+                    </p>
+                </div>
+            </div>
+        </div>
      );
 }
 
